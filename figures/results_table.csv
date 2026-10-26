@@ -1,0 +1,13 @@
+model,params,val_acc_ep10,val_acc_ep20,val_acc_ep30,test_acc,macro_f1,train_time_s,ms_per_image,family
+MLP_1hidden,6295046,0.36,0.387,0.378,0.378,0.288,19.1,1.95,MLP
+MLP_2hidden,6424838,0.315,0.333,0.324,0.306,0.199,14.5,1.47,MLP
+MLP_3hidden,6456966,0.306,0.243,0.216,0.207,0.057,15.9,1.63,MLP
+CNN_2blocks,28870,0.468,0.604,0.64,0.514,0.493,58.8,2.4,CNN
+CNN_3blocks,111430,0.468,0.622,0.613,0.577,0.579,65.7,2.97,CNN
+CNN_4blocks,424006,0.577,0.55,0.55,0.541,0.535,71.4,3.62,CNN
+MobileNetV2_0hidden,2265670,0.784,0.802,0.793,0.703,0.694,42.4,19.81,MobileNetV2
+MobileNetV2_1hidden,2422726,0.775,0.802,0.775,0.703,0.708,42.3,20.36,MobileNetV2
+MobileNetV2_2hidden,2619590,0.784,0.802,0.784,0.748,0.752,42.7,19.8,MobileNetV2
+MobileNetV2_finetuned,2265670,0.793,0.793,0.793,0.748,0.748,16.4,20.03,MobileNetV2
+EfficientNetB0_0hidden,4057257,0.793,0.784,0.802,0.802,0.8,61.0,40.58,EfficientNetB0
+EfficientNetB0_1hidden,4214313,0.766,0.766,0.721,0.766,0.773,58.5,36.19,EfficientNetB0
