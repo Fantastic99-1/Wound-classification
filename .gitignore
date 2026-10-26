@@ -1,0 +1,13 @@
+# Dataset (download separately - see README)
+wound_images/
+data/
+*.zip
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Only the final model is committed (models/EfficientNetB0_0hidden.keras)
+models/*
+!models/EfficientNetB0_0hidden.keras
